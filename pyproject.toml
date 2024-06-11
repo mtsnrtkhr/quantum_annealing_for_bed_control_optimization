@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "quantum-annealing-for-bed-control-optimization"
+version = "0.1.0"
+description = "Research for Bed Control Optimization Problem solver by Quantum Annealing"
+authors = ["Your Name <you@example.com>"]
+license = "MIT"
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = ">=3.12,<3.13"
+ipykernel = "^6.29.4"
+pandas = "^2.2.2"
+numpy = "^1.26.4"
+datetime = "^5.5"
+dwave-neal = "^0.6.0"
+openjij = "^0.9.2"
+dwave-system = "^1.24.0"
+python-dotenv = "^1.0.1"
+dwave-ocean-sdk = "^6.10.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
